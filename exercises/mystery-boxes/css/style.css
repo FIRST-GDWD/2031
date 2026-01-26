@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#mimic-box {
+    animation: wiggle 5s infinite;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    36% {
+        transform: rotate(0deg);
+    }
+    37% {
+        transform: rotate(20deg);
+    }
+    39% {
+        transform: rotate(-20deg);
+    }
+    41% {
+        transform: rotate(20deg);
+    }
+    43% {
+        transform: rotate(-20deg);
+    }
+    44% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
