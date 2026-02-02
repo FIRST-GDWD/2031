@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p-1 {
+    color: rgb(62, 232, 19);
+}
+
+#p-2 {
+    color: orange;
+    background-color: red;
+}
+
+#s-1 {
+    color: blue;
+}
+
+#s-2 {
+    background-color: yellow;
+}
