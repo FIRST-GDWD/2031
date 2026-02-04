@@ -9,7 +9,7 @@ body {
 
 #span-1 {
     font-weight: bold;
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 #span-2 {
@@ -22,14 +22,13 @@ body {
 }
 
 #anchor-1 {
+    color: green;
     text-decoration: none;
-    color: darkgreen;
-    cursor: not-allowed;
 }
 
 #break-image {
     width: 100px;
-    text-align: center;
+   
 }
 
 #centered-image {

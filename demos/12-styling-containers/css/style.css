@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Electrolize&family=Tiny5&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#colored-text {
+    color: green;
+}
+
+.shadowed {
+    background-color: lightgray;
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 4px 4px 4px grey;
+}
+
+p {
+    font-family: "Electrolize", sans-serif;
+    color: red;
+}
