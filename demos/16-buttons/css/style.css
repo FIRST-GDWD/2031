@@ -50,3 +50,16 @@ body {
     display: block;
     text-align: center;
 }
+
+#section-3 {
+    width: 300px;
+}
+
+#section-2 .background {
+    background-color: teal;
+}
+
+#section-2 .border {
+    color: teal;
+    border-color: teal;
+}
