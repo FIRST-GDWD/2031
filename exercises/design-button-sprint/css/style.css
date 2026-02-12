@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.pre-school {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border: 24px solid pink;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 80);
+    padding: 36px;
+    margin: 24px;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "DynaPuff", system-ui;
+}
+
+.r {
+    color: red;
+}
+
+.b {
+    color: rgb(61, 61, 252);
+}
+
+.g {
+    color: green;
+}
+
+.p {
+    color: rgb(255, 149, 167);
+}
