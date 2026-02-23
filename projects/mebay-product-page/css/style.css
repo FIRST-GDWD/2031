@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 36px auto;
+    display: flex;
+    min-height: 100px;
+}
+
+#thumbnail-column {
+    background-color: lightblue;
+    width: 100px;
+}
+
+#featured-image-column {
+    background-color: aquamarine;
+    flex: 1;
+}
+
+#product-info-column {
+    background-color: lightcoral;
+    width: 400px;
+}
