@@ -61,3 +61,14 @@ body {
     padding: 72px;
     border-radius: 60px;
 }
+
+#parallax-hero {
+    background-image: url("../images/emerald-seas.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
