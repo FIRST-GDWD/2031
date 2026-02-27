@@ -44,20 +44,32 @@ body {
 
 /* tablet breakpoint */
 @media screen and (max-width: 640px) {
-    body {
+    /* body {
         background-color: skyblue;
+    } */
+
+    #single-column-layout h1 {
+        font-size: 44px;
+    }
+
+    #basic-grid-gallery {
+        grid-template-columns: 1fr;
     }
 }
 
 /* mobile breakpoint */
 @media screen and (max-width: 450px) {
-    body {
+    /* body {
         background-color: firebrick;
-    }
+    } */
 
     #nav {
         flex-direction: column;
         align-items: center;
+    }
+
+    #single-column-layout h1 {
+        font-size: 32px;
     }
 }
 
