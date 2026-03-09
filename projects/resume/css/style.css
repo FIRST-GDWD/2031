@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Domine:wght@400..700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-family: "Domine", serif;
+}
+
+#all-content {
+    width: 90vw;
+    max-width: 970px;
+    margin: 0px auto;
+    background-color: rgb(255, 204, 211);
+    border-radius: 12px;
+    box-shadow: 12px 12px 10px rgba(125, 84, 90, 0.619);
+    margin-top: 24px;
+    padding: 30px;
+}
+
+.sbs-container {
+    display: flex;
+    gap: 36px;
+}
+
+#main-content {
+    width: 620px;
+    margin-top: 12px;
+}
+
+#main-content h2 {
+    margin-top: 0px;
+}
+
+#title {
+    text-align: center;
+    border-bottom: 1.5px solid rgb(238, 51, 83);
+    margin-bottom: 24px
+}
+
+#title h1 {
+    margin-bottom: 6px;
+    margin-top: 0px;
+    color: rgb(238, 51, 83);
+    font-size: 45px;
+    font-family: "Bungee Shade", sans-serif;
+}
+
+#main-content p {
+    width: 600px;
+    color: rgb(60, 60, 60);
+}
+
+#main-content li {
+    width: 500px;
+    color: rgb(60, 60, 60);
+}
+
+#main-content h4 {
+    margin: 0px;
+}
+
+#main-content h2 {
+    color: rgb(238, 51, 83);
+}
+
+#main-content #experience {
+    margin-bottom: 6px;
+}
+
+#main-content h6 {
+    margin: 0px;
+}
+
+#side-content {
+    padding: 12px;
+    width: 300px;
+    background-color: rgb(253, 217, 223);
+    box-shadow: inset 6px 6px 12px rgba(255, 255, 255, 0.349);
+    border-radius: 12px;
+}
+
+#side-content h2 {
+    color: rgb(238, 51, 83);
+    margin: 0px;
+}
+
+#side-content #school {
+   margin: 0px;
+}
+
+#side-content #education {
+    margin-bottom: 6px;
+}
+
+#side-content p {
+    color: rgb(60, 60, 60);
+}
+
+@media print {
+    #all-content {
+        width: 100%;
+        max-width: none;
+        background-color: transparent;
+        box-shadow: none;
+        font-size: 11px;
+    }
+
+    .sbs-container {
+        gap: 24px;
+    }
+
+    #main-content {
+        width: auto;
+        flex: 1;
+        margin-top: 12px;
+    }
+
+    #side-content {
+        width: 175px;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    #main-content h2 {
+        font-size: 20px;
+    }
+
+    #main-content p {
+        width: auto;
+    }
+
+    #main-content li {
+        width: auto;
+    }
+}
